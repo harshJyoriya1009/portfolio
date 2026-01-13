@@ -15,7 +15,7 @@ export const AboutMe =() =>{
                     <p className="text-muted-foreground">Alongside web development, I work with AI tools and automation to build smart chatbot solutions and automate real-world processes.</p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="https://www.linkedin.com/in/harsh-jyoriya-1bb657308/" target="_blank" className="cosmic-button">Get in Touch</a>
-                        <a href="/public/projects/Harsh_Resume.pdf" download="Harsh_Resume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Download Resume</a>
+                        <a href={`${import.meta.env.BASE_URL}projects/Harsh_Resume.pdf`} download="Harsh_Resume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Download Resume</a>
                     </div>
                 </div>
 
