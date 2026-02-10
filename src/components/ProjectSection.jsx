@@ -14,6 +14,15 @@ const projects =[
     
     {
         id:2,
+        title: "AI Code review Agent",
+        description : "AI-powered tool that analyzes GitHub code files and provides score, charts, and improvement suggestions using n8n + Django + React.",
+        image: "/projects/picture7.png",
+        tags: ["React-js","Django", "N8N"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/harshJyoriya1009/Code_review_frontend"
+    },
+    {
+        id:3,
         title: "Daily News App",
         description : "Delivers the latest news updates from multiple sources in real time",
         image: "/projects/picture2.png",
@@ -23,7 +32,7 @@ const projects =[
     },
     
     {
-        id:3,
+        id:4,
         title: "Tweet App",
         description : "A social app for posting, liking, and managing tweets in real time",
         image: "/projects/picture3.png",
@@ -33,7 +42,7 @@ const projects =[
     },
     
     {
-        id:4,
+        id:5,
         title: "Feedback Form ",
         description : "An AI-powered feedback form built with N8N and OpenAI to automate response collection and analysis",
         image: "/projects/picture4.jpg",
@@ -43,7 +52,7 @@ const projects =[
     },
     
     {
-        id:5,
+        id:6,
         title: "Word Converter",
         description : "Converts text between different formats quickly and accurately",
         image: "/projects/picture5.png",
@@ -52,15 +61,16 @@ const projects =[
         githubUrl: "https://github.com/harshJyoriya1009/Word-Converter-React"
     },
     
-    {
-        id:6,
-        title: "Password generator",
-        description : "Generates secure, random passwords instantly to enhance online security",
-        image: "/projects/picture6.png",
-        tags: ["React", "Bootstarp"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/harshJyoriya1009/Password-maker"
-    },
+    // {
+    //     id:7,
+    //     title: "Password generator",
+    //     description : "Generates secure, random passwords instantly to enhance online security",
+    //     image: "/projects/picture6.png",
+    //     tags: ["React", "Bootstarp"],
+    //     demoUrl: "#",
+    //     githubUrl: "https://github.com/harshJyoriya1009/Password-maker"
+    // },
+    
 ];
 
 export const ProjectSection =()=>{
