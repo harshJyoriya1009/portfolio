@@ -17,8 +17,8 @@ export const AboutMe =() =>{
                         <a href="https://www.linkedin.com/in/harsh-jyoriya-1bb657308/" target="_blank" className="cosmic-button">Get in Touch</a>
                         {/* <a href={`${import.meta.env.BASE_URL}projects/Harsh_Resume.pdf`} download="Harsh_Resume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Download Resume</a> */}
                    <a
-  href={`${import.meta.env.BASE_URL}projects/Harsh_Resume.pdf`}
-  download="Harsh_Resume.pdf"
+  href={`${import.meta.env.BASE_URL}projects/Harsh_Jyoriya_Resume.pdf`}
+  download="Harsh_Jyoriya_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
