@@ -9,7 +9,7 @@ export const HeroSection =() =>{
  <div className="w-50 h-50 mx-auto rounded-full overflow-hidden border-4 border-primary shadow-lg opacity-0 animate-fade-in">
             <img 
             //   src="https://media.licdn.com/dms/image/v2/D4D03AQHHZ9GtffKK2g/profile-displayphoto-shrink_100_100/B4DZShNzVEH0AY-/0/1737871538262?e=1764201600&v=beta&t=-Ze3MXwyLR-ShGzQUXuWl_5D4T3yPUxlOR5jxeLjtvk" 
-              src="/projects/profilePicture.jpeg" 
+              src="/projects/profilepicture.png" 
               alt="Harsh Jyoriya" 
               className="w-full h-full object-cover"
             />
